@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_move_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="moveActivity"
+        android:text="Move Activity"/>
+
+    <Button
+        android:id="@+id/btn_move_data_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="moveDataActivity"
+        android:text="Move Data Activity"/>
+
+    <Button
+        android:id="@+id/btn_move_object_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="moveObjectActivity"
+        android:text="Move Object Activity"/>
+
+    <Button
+        android:id="@+id/btn_move_result_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="moveResultActivity"
+        android:text="Move Result Activity"/>
+
+    <Button
+        android:id="@+id/btn_move_application"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="moveApplication"
+        android:text="Move Application"/>
+
+    <TextView
+        android:id="@+id/tv_nama_barang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="nama barang"/>
+
+    <TextView
+        android:id="@+id/tv_jumlah_barang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="jumlah barang"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="toast"
+        android:onClick="tampilToast"/>
+
+</LinearLayout>
